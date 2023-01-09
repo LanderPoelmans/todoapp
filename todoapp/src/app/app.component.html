@@ -16,8 +16,8 @@
         <input type="text" placeholder="add a new task" #task>
         <button (click)="addTask(task.value)">Add new task</button>
       </div>
-      <div class="col-md-12">
-        <ul *ngFor="let item of list">
+      <div class="col-md-12 tasklist">
+        <ul *ngFor="let item of list" class="item">
           <li>{{item.name}}<button (click)="removeTask(item.id)">Remove</button></li>
         </ul>
       </div>

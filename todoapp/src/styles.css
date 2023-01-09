@@ -1,6 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
 body{
-    background-color: #BB2528;
+    background-image: url("https://img.freepik.com/free-photo/nice-christmas-background-white-background-with-copy-space_24972-1722.jpg?w=2000");
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #165B33;
     text-align: center;
+}
+.item {
+    background-color: white;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tasklist {
+    background-color: rgba(255, 255, 255, 0.671);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+li{
+    text-decoration: none;
 }
