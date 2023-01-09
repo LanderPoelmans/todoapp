@@ -12,13 +12,13 @@
   <Div class="container-fluid">
     <div class="row">
       <div class="col-md-12">
-        <h1>To do's</h1>
+        <h1>🎅 To do's 🎅</h1>
         <input type="text" placeholder="add a new task" #task>
-        <button (click)="addTask(task.value)">Add new task</button>
+        <button (click)="addTask(task.value)" class="btn btn-success addNewTask">Add new task</button>
       </div>
       <div class="col-md-12 tasklist">
         <ul *ngFor="let item of list" class="item">
-          <li>{{item.name}}<button (click)="removeTask(item.id)">Remove</button></li>
+          <li>{{item.name}}<button (click)="removeTask(item.id)" class="btn btn-outline-primary btnItem">X</button></li>
         </ul>
       </div>
     </div>

@@ -20,4 +20,12 @@ body{
 }
 li{
     text-decoration: none;
+    list-style: none;
+}
+
+.btnItem{
+    margin-left: 10px;
+}
+.addNewTask{
+    margin-left: 40px;
 }
